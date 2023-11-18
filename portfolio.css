@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 41, 62);
+}
+
+/* nav-bar */
+.header {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(246,
+            150,
+            6);
+}
+
+.nav-heading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    display: inline-block;
+    margin-left: 20rem;
+
+}
+
+.nav-links a {
+    margin-right: 28px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 0.5s ease;
+}
+
+.nav-links a:hover {
+    border: 1px solid gold;
+    padding: 5px 10px 5px;
+    border-radius: 15px;
+    background-color: rgb(246, 150, 6);
+    color: rgb(40, 4, 44);
+}
+
+/* .btn {
+    background: rgb(246, 150, 6);
+    display: flex;
+    text-align: right;
+} */
+
+.interest-goals {
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.briefing h2 {
+    padding: 5px;
+    margin-bottom: 2px;
+    color: rgb(246,
+            150,
+            6);
+}
+
+.briefing p {
+    float: left;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: antiquewhite;
+
+}
+
+.img {
+    float: left;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 25px solid rgb(246,
+            150,
+            6);
+    border-radius: 200px;
+
+}
+
+/*
+=============== 
+memorie
+===============
+*/
+.mem,
+.aspire {
+    display: flex;
+    margin: auto;
+
+}
+
+.playing,
+.aspire {
+    float: left;
+    margin-top: 100px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+.image {
+    float: left;
+    width: 30rem;
+    height: 30rem;
+    /* width: 500px; */
+    border-radius: 700px;
+    margin-top: 120px;
+}
+
+/* Education */
+.edc {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.logo {
+    padding-bottom: 20px;
+    margin-left: 40px;
+    width: 150px;
+
+}
+
+.journey h3,
+.aspirations h3 {
+    padding-bottom: 10px;
+    color: rgb(246, 150, 6);
+}
+
+.journey p {
+    padding-bottom: 10px;
+    color: antiquewhite;
+}
+
+/* contacts */
+.cont {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    display: block;
+    line-height: 30px;
+    margin-left: 200px;
+}
+
+.get-in-touch h3 {
+    padding-bottom: 10px;
+    color: rgb(246, 150, 6);
+}
+
+.get-in-touch p {
+    padding-bottom: 10px;
+    color: antiquewhite;
+}
+
+.social-media a {
+    /* padding-bottom: 20px; */
+    margin-right: 20px;
+    color: rgb(246, 150, 6);
+}
+
+.social-media a:hover {
+    border: 1px solid antiquewhite;
+    padding: 5px 10px 5px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.hobby {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+.skilledhobby h3 {
+    color: rgb(246, 150, 6);
+}
+
+ul {
+    color: antiquewhite;
+}
